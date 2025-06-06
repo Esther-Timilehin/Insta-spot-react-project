@@ -97,7 +97,7 @@ function Header() {
         <div className="logo-container" aria-label="Logo container">
           <a href="#" className="logo" aria-label="Go to homepage">
             <img
-              src="../public/assets/icons/spot-logo.svg"
+              src="/assets/icons/spot-logo.svg"
               alt="Insta-spot logo and home-page link"
             />
             <span className="logo-text">SPOTS</span>
@@ -115,7 +115,7 @@ function Header() {
               <img
                 className="avatar-img"
                 id="profileImage"
-                src="../public/assets/images/avatar.png"
+                src="/assets/images/avatar.png"
                 alt="Profile image of Bessie Coleman"
                 loading="lazy"
               />
@@ -164,7 +164,7 @@ function Header() {
                 aria-label="Edit profile"
                 onClick={EditProfile}
               >
-                <img src="../public/assets/icons/edit.svg" alt="edit icon" />
+                <img src="/assets/icons/edit.svg" alt="edit icon" />
                 Edit Profile
               </button>
             </div>
