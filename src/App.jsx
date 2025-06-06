@@ -29,7 +29,7 @@ function App() {
             aria-label="Create new post"
             onClick={() => setShowPostModal(true)}
           >
-            <img src="./src/assets/icons/plus.svg" alt="+" />
+            <img src="/assets/icons/plus.svg" alt="+" />
             New Post
           </button>
 
