@@ -12,16 +12,9 @@ function App() {
 
   const [selectedCard, setSelectedCard] = useState(null);
 
-  // const openPreview = (card) => setSelectedCard(card);
-  // const closePreview = () => setSelectedCard(null);
-
-
  return (
   <div>
      <Header />
-    {/* <DisplayCards />
-    <NewPost />  */}
-     {/* <button onClick={() => setShowPostModal(true)}>New Post</button> */}
      <button
             type="button"
             className="post-btn btn-dark"
